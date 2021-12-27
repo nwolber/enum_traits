@@ -3,7 +3,6 @@
 //! The crate `enum_traits_macros` is required for the derives.
 
 #![cfg_attr(feature = "no_std" ,no_std)]
-#![cfg_attr(feature = "nightly",feature(associated_consts))]
 
 #[cfg(not(feature = "no_std"))]use  std::{borrow};
 #[cfg(feature = "no_std")     ]use core::{borrow};
